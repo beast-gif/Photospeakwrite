@@ -1,0 +1,19 @@
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+pytesseract>=0.3.10
+
+# Voice (offline-friendly on Pi 4B)
+pyttsx3>=2.90
+sounddevice>=0.4.6
+vosk>=0.3.45
+
+# Online STT fallback (optional)
+SpeechRecognition>=3.10.0
+
+# System packages required (install via apt on the Pi):
+#   sudo apt install -y tesseract-ocr libtesseract-dev espeak portaudio19-dev
+#
+# Vosk model (~40 MB) — download once into ./models/:
+#   wget https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
+#   unzip vosk-model-small-en-us-0.15.zip -d models/

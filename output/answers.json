@@ -1,0 +1,94 @@
+{
+  "fields": [
+    {
+      "label": "name",
+      "type": "text",
+      "x_mm": 45.82627118644125,
+      "y_mm": 31.567365269461355,
+      "width_mm": 100.0,
+      "height_mm": 4.890718562874222,
+      "source": "ocr",
+      "confidence": 96.0
+    },
+    {
+      "label": "age",
+      "type": "digits",
+      "x_mm": 40.04237288135664,
+      "y_mm": 44.461077844311575,
+      "width_mm": 100.0,
+      "height_mm": 4.890718562874222,
+      "source": "ocr",
+      "confidence": 75.0
+    },
+    {
+      "label": "dob",
+      "type": "date",
+      "x_mm": 41.82203389830575,
+      "y_mm": 57.3547904191618,
+      "width_mm": 100.0,
+      "height_mm": 4.890718562874222,
+      "source": "ocr",
+      "confidence": 67.0
+    },
+    {
+      "label": "city",
+      "type": "text",
+      "x_mm": 41.377118644068474,
+      "y_mm": 70.69311377245513,
+      "width_mm": 100.0,
+      "height_mm": 4.890718562874222,
+      "source": "ocr",
+      "confidence": 46.0
+    },
+    {
+      "label": "passport number",
+      "type": "text",
+      "x_mm": 91.20762711864357,
+      "y_mm": 87.58832335329336,
+      "width_mm": 100.0,
+      "height_mm": 12.449101796407112,
+      "source": "ocr",
+      "confidence": 93.0
+    },
+    {
+      "label": "phone number",
+      "type": "digits",
+      "x_mm": 83.64406779660985,
+      "y_mm": 100.48203592814357,
+      "width_mm": 100.0,
+      "height_mm": 12.449101796407112,
+      "source": "ocr",
+      "confidence": 94.0
+    },
+    {
+      "label": "gender",
+      "type": "choice:male,female,other",
+      "x_mm": 54.7245762711868,
+      "y_mm": 109.3742514970058,
+      "width_mm": 100.0,
+      "height_mm": 4.890718562874222,
+      "source": "ocr",
+      "confidence": 77.0
+    },
+    {
+      "label": "aadhar number",
+      "type": "digits",
+      "x_mm": 85.42372881355897,
+      "y_mm": 126.71407185628713,
+      "width_mm": 100.0,
+      "height_mm": 12.449101796407112,
+      "source": "ocr",
+      "confidence": 94.0
+    }
+  ],
+  "answers": {
+    "name": "Amrit",
+    "age": "21",
+    "dob": "7Th March 2005",
+    "city": "Las Vegas",
+    "passport number": "1234",
+    "phone number": "821709727",
+    "gender": "M a l e",
+    "aadhar number": "946572"
+  }
+}
